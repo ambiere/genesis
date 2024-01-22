@@ -13,13 +13,13 @@ npm install -g genes
 2. Varify installation
 
 ```bash
-genes version
+genes --version
 ```
 
 3. Instructions and available commands
 
 ```bash
-genes help
+genes --help
 ```
 
 ## Contributing
