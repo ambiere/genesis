@@ -1,0 +1,70 @@
+{
+  "name": "genes",
+  "version": "1.0.0",
+  "description": "Generates server project templates",
+  "main": "genest.js",
+  "type": "commonjs",
+  "bin": {
+    "genes": "src/bin/genes.js"
+  },
+  "engines": {
+    "node": "21.6.1",
+    "npm": "10.2.4",
+    "pnpm": "8.10.0"
+  },
+  "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "node -e \"if (process.env.NODE_ENV !== 'production') { require('husky').install() }\""
+  },
+  "keywords": [
+    "nodejs",
+    "fastify",
+    "express",
+    "cli",
+    "template"
+  ],
+  "author": "zhid0399123 <zhid0399123@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/autoload": "^5.0.0",
+    "@fastify/cors": "^8.5.0",
+    "@fastify/env": "^4.3.0",
+    "@fastify/sensible": "^5.0.0",
+    "commist": "^3.2.0",
+    "fastify": "^4.0.0",
+    "fastify-cli": "^5.8.0",
+    "fastify-plugin": "^4.0.0",
+    "generify": "^4.2.0",
+    "help-me": "^5.0.0",
+    "kolorist": "^1.8.0",
+    "minimist": "^1.2.8",
+    "pino-pretty": "^10.3.1",
+    "pino-http": "^8.5.1",
+    "yargs-parser": "^21.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "compression": "^1.7.4",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "standard": "^17.1.0",
+    "tap": "^16.1.0",
+    "supertest": "^6.3.3",
+    "nodemon": "^3.0.1",
+    "nyc": "^15.1.0",
+    "dockerode": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhid0399123/genes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhid0399123/genes/issues"
+  },
+  "homepage": "https://github.com/zhid0399123/genes#readme"
+}
