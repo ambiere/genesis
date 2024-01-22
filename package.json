@@ -16,7 +16,8 @@
     "lint": "standard",
     "lint:fix": "standard --fix",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "node -e \"if (process.env.NODE_ENV !== 'production') { require('husky').install() }\""
+    "prepare": "node -e \"if (process.env.NODE_ENV !== 'production') { require('husky').install() }\"",
+    "version": "cz bump"
   },
   "keywords": [
     "nodejs",
