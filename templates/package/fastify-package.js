@@ -18,7 +18,7 @@ const fastifyPackageTemplate = {
     'test:coverage': 'cross-env NODE_ENV=test tap --coverage-report=html test/**/*.test.js" --no-check-coverage',
     start: 'cross-env NODE_ENV=production fastify start -l info --options src/server.js',
     dev: 'fastify start --options -w --debug src/server.js',
-    prepare: "node -e \"if (process.env.NODE_ENV !== 'production') { require('husky').install() }\"",
+    prepare: "node .husky/install.js",
     version: 'cz bump',
     'docker:compose': 'docker-compose -f docker-compose.yml up'
   },
