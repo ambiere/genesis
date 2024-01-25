@@ -1,6 +1,6 @@
 {
   "name": "genes",
-  "version": "0.0.0",
+  "version": "1.4.0",
   "description": "Generates server project templates",
   "main": "genest.js",
   "type": "commonjs",
@@ -18,7 +18,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "node -e \"if (process.env.NODE_ENV !== 'production') { require('husky').install() }\"",
     "version": "cz bump",
-    "post:version": "conventional-changelog -p conventionalcommits -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
+    "post:version": "conventional-changelog -p conventionalcommits -i CHANGELOG.md -s -r 1 && git add CHANGELOG.md"
   },
   "keywords": [
     "nodejs",
