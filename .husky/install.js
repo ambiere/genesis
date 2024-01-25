@@ -4,5 +4,5 @@ if (process.env.NODE_ENV === "production" || process.env.CI === "1") {
 
 ;(async () => {
   const husky = await import("husky")
-  husky()
+  husky.install()
 })()
