@@ -17,8 +17,7 @@
     "lint:fix": "standard --fix",
     "test": "cross-env NODE_ENV=test nyc tap \"test/**/*.test.js\" --no-check-coverage",
     "prepare": "node -e \"if (process.env.NODE_ENV !== 'production') { require('husky').install() }\"",
-    "version": "cz bump",
-    "post:version": "conventional-changelog -p conventionalcommits -i CHANGELOG.md -s -r && git add CHANGELOG.md"
+    "version": "cz bump"
   },
   "keywords": [
     "nodejs",
