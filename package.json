@@ -1,5 +1,5 @@
 {
-  "name": "genes",
+  "name": "@zhid0399123/genes",
   "version": "0.1.0",
   "description": "Generates server project templates",
   "main": "genest.js",
@@ -15,7 +15,7 @@
   "scripts": {
     "lint": "standard",
     "lint:fix": "standard --fix",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "cross-env NODE_ENV=test nyc tap \"test/**/*.test.js\" --no-check-coverage",
     "prepare": "node -e \"if (process.env.NODE_ENV !== 'production') { require('husky').install() }\"",
     "version": "cz bump",
     "post:version": "conventional-changelog -p conventionalcommits -i CHANGELOG.md -s -r && git add CHANGELOG.md"
