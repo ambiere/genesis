@@ -1,4 +1,4 @@
-if (process.env.NODE_ENV === "production" || process.env.CI === "1") {
+if (process.env.NODE_ENV === "production" || process.env.CI === "true") {
   process.exit(0)
 }
 
