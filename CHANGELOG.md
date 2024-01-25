@@ -1,3 +1,10 @@
+## [1.7.0](https://github.com/zhid0399123/genes/compare/1.6.0...1.7.0) (2024-01-25)
+
+
+### Features
+
+* **package:** updated changelog script ([26993e4](https://github.com/zhid0399123/genes/commit/26993e44b6a80608571c150b5776999e34d208dc))
+
 ## [1.6.0](https://github.com/zhid0399123/genes/compare/1.5.0...1.6.0) (2024-01-25)
 
 
