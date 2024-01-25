@@ -16,7 +16,7 @@
     "lint": "standard",
     "lint:fix": "standard --fix",
     "test": "cross-env NODE_ENV=test nyc tap \"test/**/*.test.js\" --no-check-coverage",
-    "prepare": "node -e \"if (process.env.NODE_ENV !== 'production' && process.env.NODE_ENV!=== 'test') { require('husky').install() }\"",
+    "prepare": "node -e \"if (process.env.NODE_ENV !== 'production' && process.env.NODE_ENV!== 'test') { require('husky').install() }\"",
     "version": "cz bump"
   },
   "keywords": [
