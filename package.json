@@ -10,7 +10,7 @@
   "engines": {
     "node": "21.6.1",
     "npm": "10.2.4",
-    "pnpm": "8.10.0"
+    "pnpm": "8.14.3"
   },
   "scripts": {
     "lint": "standard",
