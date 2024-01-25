@@ -18,7 +18,7 @@ const fastifyPackageTemplate = {
     test: 'cross-env NODE_ENV=test nyc tap "test/**/*.test.js"',
     start: 'node src/bin/index.js',
     dev: 'nodemon --watch src/ src/bin/index.js',
-    prepare: "node -e \"if (processs.env.NODE_ENV !== 'production') { require('husky').install() }\"",
+    prepare: "node .husky/install.js",
     version: 'cz bump',
     'docker:compose': 'docker-compose -f docker-compose.yml up'
   },
