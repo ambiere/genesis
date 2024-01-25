@@ -15,10 +15,10 @@ const fastifyPackageTemplate = {
     lint: 'standard',
     'lint:fix': 'standard --fix',
     pretest: 'pnpm run lint',
-    test: 'nyc tap "test/**/*.test.js"',
+    test: 'cross-env NODE_ENV=test nyc tap "test/**/*.test.js"',
     start: 'node src/bin/index.js',
     dev: 'nodemon --watch src/ src/bin/index.js',
-    prepare: "node -e \"if (process.env.NODE_ENV !== 'production') { require('husky').install() }\"",
+    prepare: "node -e \"if (processs.env.NODE_ENV !== 'production') { require('husky').install() }\"",
     version: 'cz bump',
     'docker:compose': 'docker-compose -f docker-compose.yml up'
   },

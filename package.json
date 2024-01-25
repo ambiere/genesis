@@ -1,6 +1,6 @@
 {
   "name": "genes",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Generates server project templates",
   "main": "genest.js",
   "type": "commonjs",
@@ -25,7 +25,7 @@
     "fastify",
     "express",
     "cli",
-    "template"
+    "template-generator"
   ],
   "author": "zhid0399123 <zhid0399123@gmail.com",
   "license": "MIT",
