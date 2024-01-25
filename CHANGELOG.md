@@ -1,4 +1,17 @@
-jriowjo3t4jvu
+## [1.5.0](https://github.com/zhid0399123/genes/compare/1.4.0...1.5.0) (2024-01-24)
+
+### Features
+
+- **cli-log:** util function for genes cli log ([5f22e62](https://github.com/zhid0399123/genes/commit/5f22e62a981e714de2a75d284b7ca8e1541f1217))
+- **edit-opts:** edit genes cli args/opts ([1a3016f](https://github.com/zhid0399123/genes/commit/1a3016f41681e0fb3f4de89ecb9d0f4133347ea4))
+- **edit-pkg:** edit project package.json ([ea0111b](https://github.com/zhid0399123/genes/commit/ea0111b6810e5f0b32419719af610503af713792))
+- **express-package:** added dockerode ([f71205f](https://github.com/zhid0399123/genes/commit/f71205f88ad8d5f06c3da56041703c8b06a20116))
+- **express:** express project template ([26088a6](https://github.com/zhid0399123/genes/commit/26088a6a38adc79228ce15723d99f74b8347cc3b))
+- **fastify:** fastify project template ([9b9f875](https://github.com/zhid0399123/genes/commit/9b9f875147b06060f29ffec470ac906039151c6c))
+- **generate:** genes generate command usage help text ([5b01221](https://github.com/zhid0399123/genes/commit/5b01221c11123263ef3c93ab37b14a2ab216532f))
+- **genes:** genes cli entry-point ([c8428cb](https://github.com/zhid0399123/genes/commit/c8428cb32dd73db9fdb94f322d82e1421c83b11a))
+- **help:** genes cli help text ([c55800c](https://github.com/zhid0399123/genes/commit/c55800ce78d0a16dd46722ec40c99dabe77917c5))
+- **log:** log util fn ([34348b8](https://github.com/zhid0399123/genes/commit/34348b801b0f065fc5067838caa45beb9369a97e))
 
 ## [1.4.0](https://github.com/zhid0399123/genes/compare/1.3.0...1.4.0) (2024-01-23)
 
