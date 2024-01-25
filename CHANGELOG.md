@@ -1,3 +1,11 @@
+## 0.4.0 (2024-01-25)
+
+### Feat
+
+- **install**: run husky install
+- **fastify-package**: updated husky prepare script
+- **express-package**: updated husky prepare script
+
 ## 0.3.0 (2024-01-25)
 
 ### Feat
