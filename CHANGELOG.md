@@ -1,77 +1,20 @@
-## 0.5.0 (2024-01-26)
+# [v0.5.0 latest](https://github.com/zhid0399123/genes/compare/0.4.0...0.5.0) (2024-01-26)
 
-### Feat
+### Features
 
-- **genes**: print out help text when running `genes` without command
+- **bin/genes**: ([d523649](https://github.com/zhid0399123/genes/commit/d52364971e042542bfa662ed32590f75a7c82dc8)) [by [@zhid0399123](github.com/zhid0399123)]</br>
+  Print out help text when running `genes` without
+  specifying any command. </br>
+  To avoid empty respone on your terminal when running
+  `genes` cli without specifying commands (`generate`,`--version`, `help`), the cli will print help text instead.
 
-## 0.4.0 (2024-01-25)
+# [v0.4.0](https://github.com/zhid0399123/genes/compare/0.3.0...0.4.0) (2024-01-25)
 
-### Feat
+### Features
 
-- **install**: run husky install
-- **fastify-package**: updated husky prepare script
-- **express-package**: updated husky prepare script
-
-## 0.3.0 (2024-01-25)
-
-### Feat
-
-- silent husky in production/ci environment
-
-### Fix
-
-- check CI env if true
-- husky is not a function
-- wrapped husky importation in async fn
-
-## 0.2.0 (2024-01-25)
-
-### Feat
-
-- disabled test check-coverage
-
-## 0.1.0 (2024-01-25)
-
-### Feat
-
-- **package**: updated changelog script
-- **genes**: main genes module
-- **package**: updated package.json
-- **package**: updated package.json
-- **generate**: genes generate command usage help text
-- **help**: genes cli help txt
-- **genes**: genec cli entry point
-- **fastify**: fastify project template
-- **express**: express project template
-- **edit-opts**: edit genes cli args
-- **edit-pkg**: util fn to edit package.json file
-- **cli-log**: genes cli log util
-- **log**: custom log function
-- **code-of-conduct**: code-of-conduct.md template file
-- **Dockerfile**: Dockerfile template file
-- **husky**: husky template config files
-- **prettier**: prettier formatter config template file
-- **lint-staged**: lint-staged config template file
-- **env**: env configs sample template file
-- **env**: env template file
-- **dockerignore**: dockerignore template file
-- **docker-compose**: docker-compose template file
-- **commitizen**: cz configs template
-- **run-before**: template util function, start mongo image before test
-- **run-after**: template util function, stop mongo image after test
-- **docker-helper**: template util functions to manipulate mongo image
-- **fly**: continue deployment workflow template
-- **ci**: continue integration workflow template
-- **fastify-package**: fastify package.json template
-- **express-package**: express package.json template
-- **contibuting**: contributing.md file template
-- **license**: license file template
-- **readme**: readme.md file template
-- configured husky & added lint-staged pre-commit hook
-- configured lint-staged
-- added .gitignore
-- do not generate changelogs on bump
-- added post:version script
-- added version script
-- configured default formatter
-- **pkg**: Initialized npm project
+- **express-package:** ([4ce700e](https://github.com/zhid0399123/genes/commit/4ce700e01554ea402eee157f1679a1a8347fe611)) [by [@zhid0399123](github.com/zhid0399123)] </br>
+  Updated husky prepare script
+- **fastify-package:** ([a8209ec](https://github.com/zhid0399123/genes/commit/a8209ecd4d310ca77165db3a9b353f4f08166153)) [by [@zhid0399123](github.com/zhid0399123)] </br>
+  Updated husky prepare script
+- **install:** ([4614427](https://github.com/zhid0399123/genes/commit/4614427695db66d3c45f633434992383670b4db7)) [by [@zhid0399123](github.com/zhid0399123)] </br>
+  Run husky install
