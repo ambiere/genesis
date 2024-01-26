@@ -18,7 +18,7 @@
     "test": "cross-env NODE_ENV=test nyc tap \"test/**/*.test.js\" --no-check-coverage",
     "prepare": "node .husky/install.js",
     "version": "cz bump",
-    "post:version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 3 && git add CHANGELOG.md"
+    "post:version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 1 && git add CHANGELOG.md"
   },
   "keywords": [
     "nodejs",
