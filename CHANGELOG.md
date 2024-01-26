@@ -1,3 +1,9 @@
+## 0.5.0 (2024-01-26)
+
+### Feat
+
+- **genes**: print out help text when running `genes` without command
+
 ## 0.4.0 (2024-01-25)
 
 ### Feat

@@ -1,6 +1,6 @@
 {
   "name": "@zhid0399123/genes",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Generates server project templates",
   "main": "genest.js",
   "type": "commonjs",
