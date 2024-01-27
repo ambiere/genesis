@@ -1,3 +1,12 @@
+## 0.6.0 (2024-01-27)
+
+### Feat
+
+- **continue-integration**: added automerge job
+- **dependabot**: added dependabot github action template
+- **continue-deployment**: run workflow after test and release workflow
+- **create-release**: template create-releae github action workflow
+
 # [v0.5.0 latest](https://github.com/zhid0399123/genes/compare/0.4.0...0.5.0) (2024-01-26)
 
 ### Features
