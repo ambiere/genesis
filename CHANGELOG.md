@@ -1,13 +1,17 @@
-## 0.6.0 (2024-01-27)
+# [v0.6.0.latest](https://github.com/zhid0399123/genes/compare/0.5.0...0.6.0) (2024-01-27)
 
-### Feat
+### Features
 
-- **continue-integration**: added automerge job
-- **dependabot**: added dependabot github action template
-- **continue-deployment**: run workflow after test and release workflow
-- **create-release**: template create-releae github action workflow
+- **continue-deployment**: ([b7e0222](https://github.com/zhid0399123/genes/commit/b7e0222d02debe5618197419ffa5144d35715f8d)) [by [@zhid0399123](github.com/zhid0399123)]</br>
+  Run deployment workflow only after test and release workflow successfully completed.
+- **continue-integration**: ([6860eee](https://github.com/zhid0399123/genes/commit/6860eee07152a42da154a916264eeb3231c4e18c)) [by [@zhid0399123](github.com/zhid0399123)]</br>
+  Added automerge job for dependabot PRs.
+- **create-release**: ([0fa9a03](https://github.com/zhid0399123/genes/commit/0fa9a03d70675c2eb8a4c2eb560e92673d7792c9)) [by [@zhid0399123](github.com/zhid0399123)]</br>
+  Template create-releae github action workflow.
+- **dependabot:** ([89c8279](https://github.com/zhid0399123/genes/commit/89c8279bb01de40a37d295cc17ec792cd94d7002)) [by [@zhid0399123](github.com/zhid0399123)]</br>
+  Added dependabot github action template.
 
-# [v0.5.0 latest](https://github.com/zhid0399123/genes/compare/0.4.0...0.5.0) (2024-01-26)
+# [v0.5.0](https://github.com/zhid0399123/genes/compare/0.4.0...0.5.0) (2024-01-26)
 
 ### Features
 
