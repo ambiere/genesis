@@ -8,9 +8,9 @@
     "genes": "src/bin/genes.js"
   },
   "engines": {
-    "node": ">=21.6.1",
-    "npm": ">=10.2.4",
-    "pnpm": ">=8.14.3"
+    "node": "21.x.x",
+    "npm": "10.x.x",
+    "pnpm": "8.x.x"
   },
   "scripts": {
     "lint": "standard",
