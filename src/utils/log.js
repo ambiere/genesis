@@ -9,11 +9,11 @@ const levels = {
   error: 3,
 }
 
-const colors = [(l) => l, kolorist.yellow, kolorist.green, kolorist.red]
+const colors = [kolorist.gray, kolorist.yellow, kolorist.green, kolorist.red]
 
 function log(severity, line) {
   const level = levels[severity] || 0
-  if (level === 2) line = "--> " + line
+  if (level === 2) line = "+" + line
   console.log(colors[level](line))
 }
 
