@@ -1,3 +1,11 @@
+## v0.7.1 (2024-02-10)
+
+## v0.7.0 (2024-02-10)
+
+### Fix
+
+- **genes**: fixed issue #26
+
 # genes [v0.7.0.latest](https://github.com/zhid0399123/genes/compare/v0.6.0...0.7.0) (2024-02-10)
 
 For simplicity, genes can generate projects interactively in your terminal in **v0.7.0**.<br>
