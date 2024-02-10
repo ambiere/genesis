@@ -7,12 +7,7 @@
   "bin": {
     "genes": "src/bin/genes.js"
   },
-  "engines": {
-    "node": "21.x.x",
-    "npm": "10.x.x",
-    "pnpm": "8.x.x"
-  },
-  "scripts": {
+   "scripts": {
     "lint": "standard",
     "lint:fix": "standard --fix",
     "test": "cross-env NODE_ENV=test nyc tap \"test/**/*.test.js\" --allow-incomplete-coverage --allow-empty-coverage",
