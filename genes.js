@@ -1,12 +1,14 @@
 const path = require("path")
-const log = require("./src/utils/log.js")
-const generify = require("generify")
-const { execSync } = require("child_process")
-const { readFile, writeFile, existsSync, mkdirSync, rmdirSync } = require("fs")
-const editPkg = require("./src/utils/edit-pkg.js")
 const argv = require("yargs-parser")
+const generify = require("generify")
+const log = require("./src/utils/log.js")
+const { green, gray } = require("kolorist")
+const { execSync } = require("child_process")
 const logUtil = require("./src/utils/cli-log.js")
+const editPkg = require("./src/utils/edit-pkg.js")
 const editOpts = require("./src/utils/edit-opts.js")
+const { readFile, writeFile, existsSync, mkdirSync, rmdirSync } = require("fs")
+const plus = require("./src/utils/plus.js")
 
 function genes(dest, pkgTemp, opts) {
   return async function () {
@@ -18,22 +20,25 @@ function genes(dest, pkgTemp, opts) {
     const configsPath = path.join(tempsPath, "configs")
     const dockerodePath = path.join(tempsPath, "dockerode")
     const workflowsPath = path.join(tempsPath, "workflows")
-
+    const onFile = (file) => {
+      log("debug", "      " + file)
+      console.log(`\x1B[1A${green("+")}\x1B[${file.length + 6}C ${gray(plus(file))}`)
+    }
     mkdirSync(path.join(__dirname, dest), { recursive: true })
     function done(err) {
       if (err) throw err
       process.chdir(dest)
       execSync("pnpm init")
-      log("info", `[${dest}] Reading package.json`)
+      log("debug", `2: [pkg] reading package.json`)
       function readCallback(err, data) {
         if (err) throw err
         const pkg = JSON.parse(data)
         editPkg(pkg, pkgTemp, opts)
-        log("debug", "[pkg] package.json edited successfully")
-        log("info", "[pkg] Saving package.json")
+        log("debug", "3: [pkg] package.json edited successfully")
+        log("debug", "4: [pkg] saving package.json")
         function writeCallback(err) {
           if (err) throw err
-          pkgTemp.info(pkg)
+          pkgTemp.info(pkg, dest)
         }
         editOpts(opts, pkg)
         writeFile("package.json", JSON.stringify(pkg, null, 2), writeCallback)
@@ -44,7 +49,6 @@ function genes(dest, pkgTemp, opts) {
         generify(configsPath, ".", {}, (err) => {})
         generify(workflowsPath, ".", opts, (err) => {})
         opts.mongo && generify(dockerodePath, "./test/dockerode", opts, (err) => {})
-
         const expressStartupLogDestPath = path.join(dest, "src/server/util")
         const expressStartupLogTempPath = path.join(tempsPath, pkgTemp.dir, "src/server/util")
         if (opts.template === "express") {
@@ -54,8 +58,8 @@ function genes(dest, pkgTemp, opts) {
       }
       readFile("package.json", readCallback)
     }
-
-    generify(path.join(tempsPath, pkgTemp.dir), dest, opts, (file) => {}, done)
+    log("debug", "1: [files] adding project files")
+    generify(path.join(tempsPath, pkgTemp.dir), dest, opts, onFile, done)
   }
 }
 
@@ -72,14 +76,12 @@ async function genesCli(args) {
     const isFastifyTemp = tempOptProvided && (opts.template === "fastify" || opts.t === "fastify")
     const isExpressTemp = tempOptProvided && (opts.template === "express" || opts.t === "express")
     const useDefaultTemp = !tempOptProvided
-
     pkgExist && logUtil.pkgExist()
     dirExist && logUtil.dirExist(opts._[0])
     dirNotProvided && logUtil.dirUndefined()
     isFastifyTemp && (template = { ...require("./templates/package/fastify-package.js") })
     useDefaultTemp && (template = { ...require("./templates/package/fastify-package.js") })
     isExpressTemp && (template = { ...require("./templates/package/express-package.js") })
-
     const pkgOpts = {
       name: opts.n || opts.name,
       template: opts.template || opts.t,
