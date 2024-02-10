@@ -16,7 +16,7 @@ will walk you through.
 - **plus**: util fn that generates plus sign for terminal log ([f57cbde](https://github.com/zhid0399123/genes/commit/f57cbdefca1d150787ca8e23b3e6246b108cb469))
 - **genes**: updated genes terminal logs ([a9700c3](https://github.com/zhid0399123/genes/commit/a9700c3801209c32a8f3fdad01cd78f8a9fa6170))
 
-# [v0.6.0.latest](https://github.com/zhid0399123/genes/compare/0.5.0...0.6.0) (2024-01-27)
+# [v0.6.0](https://github.com/zhid0399123/genes/compare/0.5.0...0.6.0) (2024-01-27)
 
 ### Features
 
