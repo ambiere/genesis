@@ -12,6 +12,7 @@
     "lint:fix": "standard --fix",
     "test": "cross-env NODE_ENV=test nyc tap \"test/**/*.test.js\" --allow-incomplete-coverage --allow-empty-coverage",
     "version": "cz bump",
+    "avae": "create --count 1",
     "post:version": "conventional-changelog -p conventionalCommits -i CHANGELOG.md -s -r 1 && git add CHANGELOG.md"
   },
   "keywords": [
