@@ -1,19 +1,22 @@
-## 0.7.0 (2024-02-10)
+# genes [v0.7.0.latest](https://github.com/zhid0399123/genes/compare/v0.6.0...0.7.0) (2024-02-10)
 
-### Feat
+For simplicity, genes can generate projects interactively in your terminal in **v0.7.0**.<br>
+To generate projects interactively run `genes generate` in your terminal and genes CLI
+will walk you through.
 
-- **prompt**: prompt questions
-- **prompt**: log project info provided interactively
-- **prompt**: prompt activity indicator
-- **prompt**: genes terminal prompt module for interactively projects generation
-- **package**: updated package info method
-- **genes**: support generation of projects interactively
-- **plus**: util fn that generates plus sign for terminal log
-- **genes**: updated genes terminal logs
+### Features
 
-## v0.6.0 (2024-01-27)
+- **prompt**:
+  A genes terminal prompt module for interactively projects generation ([d4ad0a5](https://github.com/zhid0399123/genes/commit/d4ad0a5eba274047ac0e9d6b96ee242d74c8993d)).
+  Added important questions into genes CLI to help generation of projects seamly ([465a7da](https://github.com/zhid0399123/genes/commit/465a7da4b984827a302141d3fece27b75c67978c)).
+  Log project info provided interactively in the terminal ([40f1f0b](https://github.com/zhid0399123/genes/commit/40f1f0ba325846ec073aac44df0b5822c2652307)).
+  Show activity indicator, when genes CLI is processing project info ([c070ee6](https://github.com/zhid0399123/genes/commit/c070ee6c506420fb422acb572ec962e7136b1410)).
+- **package**: updated package info method to log updated project info ([e556ed6](https://github.com/zhid0399123/genes/commit/e556ed6602c51d363c0be86e2d2f88b6d6cb0727))
+- **genes**: support generation of projects interactively ([870bef2](https://github.com/zhid0399123/genes/commit/870bef286ba0c0264c5a247ea76284064e21a507))
+- **plus**: util fn that generates plus sign for terminal log ([f57cbde](https://github.com/zhid0399123/genes/commit/f57cbdefca1d150787ca8e23b3e6246b108cb469))
+- **genes**: updated genes terminal logs ([a9700c3](https://github.com/zhid0399123/genes/commit/a9700c3801209c32a8f3fdad01cd78f8a9fa6170))
 
-# [v0.6.0.latest](https://github.com/zhid0399123/genes/compare/0.5.0...0.6.0) (2024-01-27)
+# [v0.6.0](https://github.com/zhid0399123/genes/compare/0.5.0...0.6.0) (2024-01-27)
 
 ### Features
 
