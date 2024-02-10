@@ -1,3 +1,18 @@
+## 0.7.0 (2024-02-10)
+
+### Feat
+
+- **prompt**: prompt questions
+- **prompt**: log project info provided interactively
+- **prompt**: prompt activity indicator
+- **prompt**: genes terminal prompt module for interactively projects generation
+- **package**: updated package info method
+- **genes**: support generation of projects interactively
+- **plus**: util fn that generates plus sign for terminal log
+- **genes**: updated genes terminal logs
+
+## v0.6.0 (2024-01-27)
+
 # [v0.6.0.latest](https://github.com/zhid0399123/genes/compare/0.5.0...0.6.0) (2024-01-27)
 
 ### Features

@@ -1,6 +1,6 @@
 {
   "name": "genes",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Generates server project templates",
   "main": "genest.js",
   "type": "commonjs",
