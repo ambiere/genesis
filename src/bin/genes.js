@@ -21,5 +21,5 @@ if (shouldPrintHelp) {
 } else {
   const commands = process.argv.slice(2)
   if (commands.length === 1 && commands[0] === "generate") generateInteractively()
-  else commist.parseAsync(process.argv.splice(2).filter((arg) => arg !== "version"))
+  else if (commands[0] === "generate") commist.parseAsync(process.argv.splice(2).filter((arg) => arg !== "version"))
 }

@@ -1,4 +1,4 @@
-# genes [v0.7.0.latest](https://github.com/zhid0399123/genes/compare/v0.6.0...0.7.0) (2024-02-10)
+# genes [v0.7.1.latest](https://github.com/zhid0399123/genes/compare/v0.6.0...0.7.0) (2024-02-10)
 
 For simplicity, genes can generate projects interactively in your terminal in **v0.7.0**.<br>
 To generate projects interactively run `genes generate` in your terminal and genes CLI
@@ -15,6 +15,10 @@ will walk you through.
 - **genes**: support generation of projects interactively ([870bef2](https://github.com/zhid0399123/genes/commit/870bef286ba0c0264c5a247ea76284064e21a507))
 - **plus**: util fn that generates plus sign for terminal log ([f57cbde](https://github.com/zhid0399123/genes/commit/f57cbdefca1d150787ca8e23b3e6246b108cb469))
 - **genes**: updated genes terminal logs ([a9700c3](https://github.com/zhid0399123/genes/commit/a9700c3801209c32a8f3fdad01cd78f8a9fa6170))
+
+### Patch Changes
+
+- **genes**: fixed issue #26
 
 # [v0.6.0](https://github.com/zhid0399123/genes/compare/0.5.0...0.6.0) (2024-01-27)
 
