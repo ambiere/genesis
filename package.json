@@ -1,5 +1,5 @@
 {
-  "name": "genes",
+  "name": "@zhid0399123/genes",
   "version": "0.7.0",
   "description": "Generates server project templates",
   "main": "genest.js",
@@ -8,16 +8,16 @@
     "genes": "src/bin/genes.js"
   },
   "engines": {
-    "node": "21.6.1",
-    "npm": "10.2.4",
-    "pnpm": "8.14.3"
+    "node": ">=21.6.1",
+    "npm": ">=10.2.4",
+    "pnpm": ">=8.14.3"
   },
   "scripts": {
     "lint": "standard",
     "lint:fix": "standard --fix",
     "test": "cross-env NODE_ENV=test nyc tap \"test/**/*.test.js\" --allow-incomplete-coverage --allow-empty-coverage",
     "version": "cz bump",
-    "post:version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 1 && git add CHANGELOG.md"
+    "post:version": "conventional-changelog -p conventionalCommits -i CHANGELOG.md -s -r 1 && git add CHANGELOG.md"
   },
   "keywords": [
     "nodejs",
