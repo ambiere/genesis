@@ -2,7 +2,7 @@
 
 ## Our Pledge
 
-We, as members, contributors, and leaders of the genes community, pledge to make participation
+We, as members, contributors, and leaders of the orign community, pledge to make participation
 in our community a harassment-free experience for everyone. We welcome individuals regardless of age,
 body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression,
 level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color,

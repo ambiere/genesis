@@ -6,8 +6,8 @@ const argv = require("yargs-parser")(process.argv)
 const generateInteractively = require("../prompt/prompt")
 const help = require("help-me")({ dir: path.join(path.dirname(require.main.filename), "../..", "help") })
 
-const generate = require("../../genes")
-commist.register("generate", generate.genesCli)
+const generate = require("../../orign")
+commist.register("generate", generate.orignCli)
 commist.register("help", help.toStdout)
 commist.register("version", function () {
   console.log(require("../../package.json").version)

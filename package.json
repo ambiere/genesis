@@ -1,11 +1,11 @@
 {
-  "name": "@zhid0399123/genes",
-  "version": "0.7.1",
+  "name": "orign",
+  "version": "0.7.3",
   "description": "Generates server project templates",
-  "main": "genest.js",
+  "main": "orignt.js",
   "type": "commonjs",
   "bin": {
-    "genes": "src/bin/genes.js"
+    "orign": "src/bin/orign.js"
   },
   "scripts": {
     "lint": "standard",
@@ -61,10 +61,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zhid0399123/genes.git"
+    "url": "https://github.com/zhid0399123/orign.git"
   },
   "bugs": {
-    "url": "https://github.com/zhid0399123/genes/issues"
+    "url": "https://github.com/zhid0399123/orign/issues"
   },
-  "homepage": "https://github.com/zhid0399123/genes#readme"
+  "homepage": "https://github.com/zhid0399123/orign#readme"
 }

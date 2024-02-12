@@ -10,7 +10,7 @@ const editOpts = require("./src/utils/edit-opts.js")
 const { readFile, writeFile, existsSync, mkdirSync, rmdirSync } = require("fs")
 const plus = require("./src/utils/plus.js")
 
-function genes(dest, pkgTemp, opts) {
+function orign(dest, pkgTemp, opts) {
   return async function () {
     const tempsPath = path.join(__dirname, "templates")
     const readmePath = path.join(tempsPath, "readme")
@@ -63,7 +63,7 @@ function genes(dest, pkgTemp, opts) {
   }
 }
 
-async function genesCli(args) {
+async function orignCli(args) {
   try {
     let template
     const opts = argv(args)
@@ -94,15 +94,15 @@ async function genesCli(args) {
       copyrightYear: (opts.Y || opts.copyrightYear) ?? new Date().getFullYear().toString(),
       username: (opts.user || opts.username) ?? "",
     }
-    await genes(dir, template, pkgOpts)()
+    await orign(dir, template, pkgOpts)()
   } catch (error) {
     log("error", error.message)
-    log("debug", "\nLauch 'genes help [command]' to learn more about each command.")
+    log("debug", "\nLauch 'orign help [command]' to learn more about each command.")
     process.exit(1)
   }
 }
 
 module.exports = {
-  genes,
-  genesCli,
+  orign,
+  orignCli,
 }

@@ -1,6 +1,6 @@
 ## Contributing Guidelines
 
-Thank you for considering contributing to the development of the genes!
+Thank you for considering contributing to the development of the orign!
 Your contributions help improve and enhance the functionality of our API, making it more valuable for users.
 Before contributing, please take a moment to review the guidelines outlined below.
 
@@ -8,11 +8,11 @@ Before contributing, please take a moment to review the guidelines outlined belo
 
 We are committed to fostering an open and inclusive community.
 As contributors and maintainers, we pledge to respect all individuals involved in this project.
-Please refer to our [Code of Conduct](https://github.com/zhid0399123/genes/blob/main/CODE_OF_CONDUCT.md) for details on expected behavior.
+Please refer to our [Code of Conduct](https://github.com/zhid0399123/orign/blob/main/CODE_OF_CONDUCT.md) for details on expected behavior.
 
 ## Ways to Contribute
 
-There are several ways you can contribute to the genes:
+There are several ways you can contribute to the orign:
 
 1. **Reporting Bugs**: If you encounter any bugs, errors, or unexpected behavior while using the API, please submit a detailed bug report using the issue tracker
 2. **Feature Requests**: Suggest new features or enhancements that you believe would benefit the API. Use the issue tracker to share your ideas
@@ -23,7 +23,7 @@ There are several ways you can contribute to the genes:
 
 To start contributing, follow these steps:
 
-1. **Fork the Repository**: Fork the genes repository to your GitHub account.
+1. **Fork the Repository**: Fork the orign repository to your GitHub account.
 2. **Create a Branch**: Create a new branch for your contributions based on the main branch.
 3. **Make Changes**: Make necessary changes, additions, or fixes in your branch.
 4. **Commit Changes**: Ensure descriptive commit messages and follow good coding practices.
@@ -65,4 +65,4 @@ By making a contribution to this project, I certify that:
 
 ## License
 
-By contributing to the genes, you agree that your contributions will be licensed under the [MIT](https://github.com/zhid0399123/genes/blob/main/LICENSE) license.
+By contributing to the orign, you agree that your contributions will be licensed under the [MIT](https://github.com/zhid0399123/orign/blob/main/LICENSE) license.
