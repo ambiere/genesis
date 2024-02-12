@@ -1,16 +1,17 @@
 <div>
-<img height="50px" src="assets/orign.svg"/>
+<a href="https://www.npmjs.com/package/orign"> <img height="50px" src="assets/orign.svg"/> </a>
 </div>
 
 </br>
+<div>
 
 [![Test](https://github.com/zhid0399123/orign/actions/workflows/continue-integration.yml/badge.svg)](https://github.com/zhid0399123/orign/actions/workflows/continue-integration.yml)
 [![Publish](https://github.com/zhid0399123/orign/actions/workflows/continue-deployment.yml/badge.svg)](https://github.com/zhid0399123/orign/actions/workflows/continue-deployment.yml) </br>
-[![npm](https://img.shields.io/npm/v/@zhid0399123/orign.svg?style=flat-square&color=default)](https://www.npmjs.com/package/@zhid0399123/orign)
-[![npm](https://img.shields.io/npm/dt/@zhid0399123/orign.svg?style=flat-square&color=default)](https://www.npmjs.com/package/@zhid0399123/orign)
-[![js-standard-style](https://img.shields.io/badge/style-standard-brightgreen.svg?style=flat)](https://standardjs.com/)
 
-Convenient template generator for server projects using both Fastify and Express frameworks. It streamlines the process of setting up a new server project by providing a well-organized boilerplate code with essential configurations and features.
+Streamline the process of setting up a new server project by providing a well-organized boilerplate code with essential configurations and features.
+
+</div>
+
 
 ## Get started
 
