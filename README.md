@@ -1,18 +1,6 @@
-<div class="hero">
-<img src="assets/orign.svg"/>
+<div>
+<img height="50px" src="assets/orign.svg"/>
 </div>
-
-<style>
-    .hero {
-        background-color: ;
-            display: flex;
-        flex: 1
-    }
-    .hero>img {
-        height: 42px;
-    }
-
-</style>
 
 </br>
 
