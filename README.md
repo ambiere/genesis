@@ -1,8 +1,5 @@
-<div>
-<a href="https://www.npmjs.com/package/orign"> <img height="50px" src="assets/orign.svg"/> </a>
-</div>
+# orign
 
-</br>
 <div>
 
 [![Test](https://github.com/zhid0399123/orign/actions/workflows/continue-integration.yml/badge.svg)](https://github.com/zhid0399123/orign/actions/workflows/continue-integration.yml)
