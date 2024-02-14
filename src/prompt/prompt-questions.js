@@ -82,13 +82,19 @@ const projectInfoQuestions = [
     message: `Team email`,
     initial: "team@domain.com",
   },
+  {
+    type: "confirm",
+    name: "confirmed",
+    message: `Create a public github repository?`,
+    initial: false,
+  },
 ]
 
 const confirmationQuestion = (response) => {
   return {
     type: "confirm",
     name: "confirmed",
-    message: `Generate ${response["--name"]} project?`,
+    message: `This will generate ${response["--name"]} project. Continue?`,
     initial: true,
   }
 }
