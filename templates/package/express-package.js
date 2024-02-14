@@ -59,14 +59,6 @@ const expressPackageTemplate = {
     log("debug", "5: [pkg] saved package.json")
     log(`debug`, `${green("+")}     package.json ${plus(`package.json`)}\n`)
     log("info", `[${pkg.name}] Generated successfully!\n`)
-    log("info", "\x1B[2K՞༅⸙⁂〰༅꙳৽՞⸙꙳⁂〰৽\n\n Happy coding dawg!")
-
-    console.log(`\n get started, run:\n`)
-    log("debud", ` cd ${dest}`)
-    log("debug", " pnpm install")
-    log("debug", " pnpm start")
-    log("debug", " pnpm test")
-    log("debug", " pnpm lint\n")
   },
 }
 
