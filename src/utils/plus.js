@@ -1,6 +1,6 @@
 function plus(file) {
   const len = Math.floor(process.stdout.columns - 12)
-  const count = len - (file.length + 6)
+  const count = len - (file.length + 12)
   return "+".repeat(count < 0 ? 0 : count)
 }
 
