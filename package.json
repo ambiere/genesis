@@ -1,11 +1,11 @@
 {
-  "name": "@zhid0399123/genes",
+  "name": "@ambiere/genesis",
   "version": "0.7.1",
   "description": "Generates server project templates",
-  "main": "genest.js",
+  "main": "genesist.js",
   "type": "commonjs",
   "bin": {
-    "genes": "src/bin/genes.js"
+    "genesis": "src/bin/genesis.js"
   },
   "scripts": {
     "lint": "standard",
@@ -22,7 +22,7 @@
     "cli",
     "template-generator"
   ],
-  "author": "zhid0399123 <zhid0399123@gmail.com",
+  "author": "ambiere <ambiere@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@fastify/autoload": "^5.0.0",
@@ -61,10 +61,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zhid0399123/genes.git"
+    "url": "https://github.com/ambiere/genesis.git"
   },
   "bugs": {
-    "url": "https://github.com/zhid0399123/genes/issues"
+    "url": "https://github.com/ambiere/genesis/issues"
   },
-  "homepage": "https://github.com/zhid0399123/genes#readme"
+  "homepage": "https://github.com/ambiere/genesis#readme"
 }
