@@ -18,11 +18,11 @@ class Spinner {
         now = spinnerFrames[index]
       }
 
-      process.stdout.write(`\x1B[33m${now}\x1B[0m`)
-      process.stdout.write(`\x1B[33m ${msg}\x1B[0m`)
+      process.stdout.write(`\x1B[36m${now}\x1B[0m`)
+      process.stdout.write(`\x1B[36m ${msg}\x1B[0m`)
       readline.cursorTo(process.stdout, 0)
       index = index >= spinnerFrames.length ? 0 : index + 1
-    }, 60)
+    }, 80)
   }
 
   stop(clear = true) {
