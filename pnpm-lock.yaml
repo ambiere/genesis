@@ -70,9 +70,9 @@ dependencies:
     version: 21.1.1
 
 devDependencies:
-  avae:
-    specifier: ^0.1.0
-    version: 0.1.0
+  '@ambiere/avae':
+    specifier: ^0.1.2
+    version: 0.1.2
   cross-env:
     specifier: ^7.0.3
     version: 7.0.3
@@ -114,6 +114,17 @@ packages:
     dependencies:
       ansi-styles: 6.2.1
       is-fullwidth-code-point: 4.0.0
+    dev: true
+
+  /@ambiere/avae@0.1.2:
+    resolution: {integrity: sha512-0Clax1nu6iwvc0gstnNH3wcUxXG9UfuFRrLvx2a3fxBOTSMUTYPcNDH2mQe9cRgMJQyr4y1nZ/WpxBuJEEdJpg==}
+    engines: {node: '>=18'}
+    hasBin: true
+    dependencies:
+      commist: 3.2.0
+      help-me: 5.0.0
+      split2: 4.2.0
+      yargs-parser: 21.1.1
     dev: true
 
   /@ampproject/remapping@2.2.1:
@@ -1412,29 +1423,6 @@ packages:
   /auto-bind@5.0.1:
     resolution: {integrity: sha512-ooviqdwwgfIfNmDwo94wlshcdzfO64XV0Cg6oDsDYBJfITDz1EngD2z7DkbvCWn+XIMsIqW27sEVF6qcpJrRcg==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
-    dev: true
-
-  /avae@0.0.0:
-    resolution: {integrity: sha512-DBPc6wJpaiZAUWtHf8k6YT+mvxXURIFJQ7xTea8Q8aylY3aZErECMBCo11YRB9V6M5f+oC4NdhINKByO3iugtQ==}
-    engines: {node: '>=18'}
-    hasBin: true
-    dependencies:
-      commist: 3.2.0
-      help-me: 5.0.0
-      split2: 4.2.0
-      yargs-parser: 21.1.1
-    dev: true
-
-  /avae@0.1.0:
-    resolution: {integrity: sha512-YspN1EKBo0qR6AhL+ZsWB9GJmzPxTG/joCVffDlK6gVNdfICZyvg2qdT4vZwMR44hjDtuM8ZCu3C41jAJ0JOLQ==}
-    engines: {node: '>=18'}
-    hasBin: true
-    dependencies:
-      avae: 0.0.0
-      commist: 3.2.0
-      help-me: 5.0.0
-      split2: 4.2.0
-      yargs-parser: 21.1.1
     dev: true
 
   /available-typed-arrays@1.0.5:

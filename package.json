@@ -47,7 +47,7 @@
     "yargs-parser": "^21.1.1"
   },
   "devDependencies": {
-    "avae": "^0.1.0",
+    "@ambiere/avae": "^0.1.2",
     "cross-env": "^7.0.3",
     "dockerode": "^4.0.0",
     "husky": "^9.0.11",
