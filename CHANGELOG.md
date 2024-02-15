@@ -13,6 +13,8 @@
   the project source/cwd. The util assume that, the project was generated
   in the repository where .git file does not exist.
 
+<br>
+
 # [v0.7.1](https://github.com/ambiere/genesis/compare/v0.6.0...0.7.0) (2024-02-10)
 
 For simplicity, genesis can generate projects interactively in your terminal in **v0.7.0**.<br>
