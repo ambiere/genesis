@@ -1,6 +1,6 @@
 {
   "name": "@ambiere/genesis",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "description": "Generates server project templates",
   "main": "genesist.js",
   "type": "commonjs",
