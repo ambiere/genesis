@@ -1,4 +1,10 @@
-# [v0.8.0.latest](https://github.com/ambiere/genesis/compare/v0.8.0...0.7.1) (2024-02-15)
+# [v0.8.1.latest](https://github.com/ambiere/genesis/compare/v0.8.1...0.8.0) (2024-02-15)
+
+### Patch Changes
+
+- **genesis**: display help text when genesis run without command
+
+# [v0.8.0](https://github.com/ambiere/genesis/compare/v0.8.0...0.7.1) (2024-02-15)
 
 ### Minor Changes
 
