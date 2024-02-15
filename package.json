@@ -1,6 +1,6 @@
 {
   "name": "@ambiere/genesis",
-  "version": "0.7.1",
+  "version": "0.8.0",
   "description": "Generates server project templates",
   "main": "genesist.js",
   "type": "commonjs",
@@ -11,7 +11,6 @@
     "lint": "standard",
     "lint:fix": "standard --fix",
     "test": "cross-env NODE_ENV=test nyc tap \"test/**/*.test.js\" --allow-incomplete-coverage --allow-empty-coverage",
-    "version": "cz bump",
     "avae": "generate --count 1",
     "post:version": "conventional-changelog -p conventionalCommits -i CHANGELOG.md -s -r 1 && git add CHANGELOG.md"
   },
