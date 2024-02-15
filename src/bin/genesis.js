@@ -16,10 +16,9 @@ commist.register("version", function () {
 const noCommandProvided = Object.keys(argv).length === 1 && argv._.splice(2).length === 0
 const shouldPrintHelp = argv.help || noCommandProvided
 if (shouldPrintHelp) {
-  const cmdNotVersion = argv.help !== "version"
-  help.toStdout(cmdNotVersion ? argv.help : undefined)
+  help.toStdout()
 } else {
   const commands = process.argv.slice(2)
   if (commands.length === 1 && commands[0] === "generate") generateInteractively()
-  else if (commands[0] === "generate") commist.parseAsync(process.argv.splice(2).filter((arg) => arg !== "version"))
+  else commist.parseAsync(process.argv.splice(2).filter((arg) => arg !== "version"))
 }
