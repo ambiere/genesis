@@ -1,0 +1,7 @@
+genesis command line interface available commands are: 
+
+    * generate          generate a new project template
+    * version           the current genesis-cli version
+    * help              help about commands
+
+Lauch 'genesis help [command]' to learn more about each command.    
