@@ -72,7 +72,7 @@ dependencies:
 devDependencies:
   '@ambiere/avae':
     specifier: ^0.1.2
-    version: 0.1.2
+    version: 0.1.3
   cross-env:
     specifier: ^7.0.3
     version: 7.0.3
@@ -116,8 +116,8 @@ packages:
       is-fullwidth-code-point: 4.0.0
     dev: true
 
-  /@ambiere/avae@0.1.2:
-    resolution: {integrity: sha512-0Clax1nu6iwvc0gstnNH3wcUxXG9UfuFRrLvx2a3fxBOTSMUTYPcNDH2mQe9cRgMJQyr4y1nZ/WpxBuJEEdJpg==}
+  /@ambiere/avae@0.1.3:
+    resolution: {integrity: sha512-Cuyhuu4+MX+ZWenKff9e9umRooRbaTdA57/v/eCVr7Uh3aqkbVo5K4fMPSe0QNnylt8Ojrt3bRPxaG+vFC9EfQ==}
     engines: {node: '>=18'}
     hasBin: true
     dependencies:
