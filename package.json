@@ -40,7 +40,7 @@
     "help-me": "^5.0.0",
     "kolorist": "^1.8.0",
     "minimist": "^1.2.8",
-    "pino-http": "^9.0.0",
+    "pino-http": "^10.1.0",
     "pino-pretty": "^11.0.0",
     "prompts": "^2.4.2",
     "split2": "^4.2.0",
