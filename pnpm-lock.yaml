@@ -58,7 +58,7 @@ dependencies:
     version: 10.1.0
   pino-pretty:
     specifier: ^11.0.0
-    version: 11.2.0
+    version: 11.2.1
   prompts:
     specifier: ^2.4.2
     version: 2.4.2
@@ -4610,8 +4610,8 @@ packages:
       strip-json-comments: 3.1.1
     dev: false
 
-  /pino-pretty@11.2.0:
-    resolution: {integrity: sha512-k6VHtZBcfLDB1mB8TWPE19OyLygfNdqOgX/uACqBbVMaUK2JeXHBUTINvJ/QPs5Vazwfq4gWIDpTYDnhkfy7Jw==}
+  /pino-pretty@11.2.1:
+    resolution: {integrity: sha512-O05NuD9tkRasFRWVaF/uHLOvoRDFD7tb5VMertr78rbsYFjYp48Vg3477EshVAF5eZaEw+OpDl/tu+B0R5o+7g==}
     hasBin: true
     dependencies:
       colorette: 2.0.20
