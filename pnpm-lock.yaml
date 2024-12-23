@@ -19,7 +19,7 @@ importers:
         version: 5.0.1
       '@fastify/sensible':
         specifier: ^6.0.1
-        version: 6.0.1
+        version: 6.0.2
       commist:
         specifier: ^3.2.0
         version: 3.2.0
@@ -264,8 +264,8 @@ packages:
   '@fastify/merge-json-schemas@0.1.1':
     resolution: {integrity: sha512-fERDVz7topgNjtXsJTTW1JKLy0rhuLRcquYqNR9rF7OcVpCa2OVW49ZPDIhaRRCaUuvVxI+N416xUoF76HNSXA==}
 
-  '@fastify/sensible@6.0.1':
-    resolution: {integrity: sha512-D0rN0kMeZKP23f4w9MoCI9e4+n7vASFAsGoRNn9bondSbplLeIfR2HcjCbyElAM04jGrPRLi/edyThEPOyC9cQ==}
+  '@fastify/sensible@6.0.2':
+    resolution: {integrity: sha512-sva4j0CDeFKpYepjiELnaeUam3X2u3rCS2BgQettpph89XGJQlxgslWihiQN5HBE9cjc1Cl4iy6Hcu1HhhFhzA==}
 
   '@humanwhocodes/config-array@0.11.14':
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
@@ -3575,7 +3575,7 @@ snapshots:
     dependencies:
       fast-deep-equal: 3.1.3
 
-  '@fastify/sensible@6.0.1':
+  '@fastify/sensible@6.0.2':
     dependencies:
       '@lukeed/ms': 2.0.2
       dequal: 2.0.3
